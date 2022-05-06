@@ -1,0 +1,175 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2022-05-03T13:55:23.469Z",
+				"before": [
+					{
+						"result": {
+							"duration": 16926000000,
+							"status": "passed"
+						},
+						"match": {
+							"location": "com.ayya.stepDefinitions.CommonStepDefintions.beforeScenario(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"line": 2,
+				"name": "This Scenario is for TestCase writting",
+				"description": "",
+				"id": "this-is-to-testcase-creation-in-testcollab;this-scenario-is-for-testcase-writting",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 3,
+						"name": "the user should click on Add TestCase",
+						"match": {
+							"location": "com.ayya.stepDefinitions.AddingTestCases.the_user_should_click_on_add_test_case()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "should enter on title box \"<title>\" and \"<description>\" details",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"<title>\"",
+									"offset": 26
+								},
+								{
+									"val": "\"<description>\"",
+									"offset": 40
+								}
+							],
+							"location": "com.ayya.stepDefinitions.AddingTestCases.should_enter_on_title_box_and_details(java.lang.String,java.lang.String)"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "User should click SaveTestCase",
+						"match": {
+							"location": "com.ayya.stepDefinitions.AddingTestCases.user_should_click_save_test_case()"
+						},
+						"keyword": "And "
+					}
+				]
+			}
+		],
+		"name": "This is to Testcase creation in TestCollab",
+		"description": "",
+		"id": "this-is-to-testcase-creation-in-testcollab",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/AddTestCases.feature",
+		"tags": []
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2022-05-03T13:55:40.614Z",
+				"before": [
+					{
+						"result": {
+							"duration": 11000000,
+							"status": "passed"
+						},
+						"match": {
+							"location": "com.ayya.stepDefinitions.CommonStepDefintions.beforeScenario(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"line": 2,
+				"name": "This Scenario is for TestCollab TestCase Preparation",
+				"description": "",
+				"id": "this-is-to-createtestcase-in-testcollab;this-scenario-is-for-testcollab-testcase-preparation",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 12603000000,
+							"status": "passed"
+						},
+						"line": 3,
+						"name": "the user should enter on Homepage and click on sign in",
+						"match": {
+							"location": "com.ayya.stepDefinitions.TestCollabViewProjects.the_user_should_enter_on_homepage_and_click_on_sign_in()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 2392000000,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "should enter on login page with \"<username>\" and \"<password>\" credentials",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"<username>\"",
+									"offset": 32
+								},
+								{
+									"val": "\"<password>\"",
+									"offset": 49
+								}
+							],
+							"location": "com.ayya.stepDefinitions.TestCollabViewProjects.should_enter_on_login_page_with_and_credentials(java.lang.String,java.lang.String)"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 9022000000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "correct credentials passed user should see account page and click on Projects",
+						"match": {
+							"location": "com.ayya.stepDefinitions.TestCollabViewProjects.correct_credentials_passed_user_should_see_account_page_and_click_on_projects()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 21424000000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "User should click \"<project>\"",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"<project>\"",
+									"offset": 18
+								}
+							],
+							"location": "com.ayya.stepDefinitions.TestCollabViewProjects.user_should_click(java.lang.String)"
+						},
+						"keyword": "And "
+					}
+				]
+			}
+		],
+		"name": "This is to CreateTestCase in TestCollab",
+		"description": "",
+		"id": "this-is-to-createtestcase-in-testcollab",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Features/TestCollabViewProjects.feature",
+		"tags": []
+	}
+]

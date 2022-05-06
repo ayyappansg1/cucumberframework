@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0"
+	name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2"
+	time="63.368">
+	<testcase
+		classname="This is to Testcase creation in TestCollab"
+		name="This Scenario is for TestCase writting" time="17.082">
+		<system-out><![CDATA[Given the user should click on Add TestCase.................................passed
+Given should enter on title box "<title>" and "<description>" details.......passed
+And User should click SaveTestCase..........................................passed
+]]></system-out>
+	</testcase>
+	<testcase classname="This is to CreateTestCase in TestCollab"
+		name="This Scenario is for TestCollab TestCase Preparation"
+		time="45.452">
+		<system-out><![CDATA[Given the user should enter on Homepage and click on sign in................passed
+Given should enter on login page with "<username>" and "<password>" credentials.passed
+When correct credentials passed user should see account page and click on Projects.passed
+And User should click "<project>"...........................................passed
+]]></system-out>
+	</testcase>
+</testsuite>
